@@ -11,6 +11,11 @@ The following tools are needed to perform the simulations,
     - [timeloop](https://github.com/NVlabs/timeloop)
     - [accelergy-table-based-plug-in](https://github.com/nelliewu95/accelergy-table-based-plug-ins)
     - [accelergy-cacti-plug-in](https://github.com/nelliewu95/accelergy-cacti-plug-in)
+- Please add the provided PIM estimation tables using the command
+
+  ```
+  accelergyTables -r <path to this repo>/PIM_estimation_tables
+  ```
 
 ### File Structure
 - `arch` folder: the YAML files describing the architecture and the its associated components.
