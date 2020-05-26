@@ -5,7 +5,7 @@ DNN accelerator evaluation framework.
 
 ### System Requirement
 The following tools are needed to perform the simulations, 
-- Option 1: install the accelegy-timeloop-infrastructure docker [here](https://github.com/nelliewu95/accelergy-timeloop-infrastructure)
+- Option 1: run inside a docker with the tools installed [docker](https://github.com/nelliewu95/accelergy-timeloop-infrastructure)
 - Option 2: manually install the following tools:
     - [accelergy](https://github.com/nelliewu95/accelergy)
     - [timeloop](https://github.com/NVlabs/timeloop)
