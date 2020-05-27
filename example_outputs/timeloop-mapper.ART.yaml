@@ -4,14 +4,14 @@ ART:
   - name: system_arch.DRAM
     area: 1
   - name: system_arch.chip.PE[0..16383].scratchpad
-    area: 1
+    area: 0.0
   - name: system_arch.chip.PE[0..16383].mac
     area: 0.016
   - name: system_arch.chip.shared_glb
-    area: 590550.0
+    area: 592148.0
   - name: system_arch.chip.dummy_buffer
     area: 1
   - name: system_arch.chip.D2A_NoC
     area: 169.984
   - name: system_arch.chip.A2D_NoC
-    area: 895.0
+    area: 2032.496

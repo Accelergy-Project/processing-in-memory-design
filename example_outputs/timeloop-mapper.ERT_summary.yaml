@@ -15,10 +15,10 @@ ERT_summary:
   - name: system_arch.chip.PE[0..16383].scratchpad
     actions:
     - name: read
-      energy: 0
+      energy: 0.0
     primitive_estimation(s):
     - name: storage
-      estimator: dummy_table
+      estimator: table-based-plug-ins
   - name: system_arch.chip.PE[0..16383].mac
     actions:
     - name: compute
@@ -29,24 +29,24 @@ ERT_summary:
   - name: system_arch.chip.shared_glb
     actions:
     - name: write
-      average_energy: 21.859
-      max_energy: 42.709
-      min_energy: 1.009
+      average_energy: 21.359
+      max_energy: 42.209
+      min_energy: 0.509
     - name: read
-      average_energy: 21.606
-      max_energy: 42.202
-      min_energy: 1.009
+      average_energy: 21.106
+      max_energy: 41.702
+      min_energy: 0.509
     - name: idle
       energy: 0.009
     primitive_estimation(s):
     - name: storage
       estimator: Cacti
     - name: address_generators[0]
-      estimator: dummy_table
+      estimator: table-based-plug-ins
     - name: address_generators[1]
-      estimator: dummy_table
+      estimator: table-based-plug-ins
     - name: address_generators[0..1]
-      estimator: dummy_table
+      estimator: table-based-plug-ins
   - name: system_arch.chip.dummy_buffer
     actions:
     - name: access
@@ -66,12 +66,12 @@ ERT_summary:
   - name: system_arch.chip.A2D_NoC
     actions:
     - name: transfer_Outputs
-      energy: 266.752
+      energy: 223.232
     primitive_estimation(s):
     - name: A2D_converter.SH[0..7]
-      estimator: dummy_table
+      estimator: table-based-plug-ins
     - name: A2D_converter.ADC
-      estimator: dummy_table
+      estimator: table-based-plug-ins
     - name: digital_accumulator.S_A
       estimator: table-based-plug-ins
     - name: digital_accumulator.outputBuffer

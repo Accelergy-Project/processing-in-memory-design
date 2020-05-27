@@ -120,7 +120,7 @@ Level 3
         Multiple buffering   : 1.00
         Effective size       : 65536
         Min utilization      : 0.00
-        Vector access energy : 42.71 pJ
+        Vector access energy : 42.21 pJ
         Area                 : 0.00 um^2
 
     MAPPING
@@ -142,9 +142,9 @@ Level 3
         Scalar fills (per-instance)              : 153228
         Temporal reductions (per-instance)       : 0
         Address generations (per-cluster)        : 1507980
-        Energy (per-scalar-access)               : 10.68 pJ
-        Energy (per-instance)                    : 16101079.46 pJ
-        Energy (total)                           : 16101079.46 pJ
+        Energy (per-scalar-access)               : 10.55 pJ
+        Energy (per-instance)                    : 15912581.96 pJ
+        Energy (total)                           : 15912581.96 pJ
         Temporal Reduction Energy (per-instance) : 0.00 pJ
         Temporal Reduction Energy (total)        : 0.00 pJ
         Address Generation Energy (per-cluster)  : 0.00 pJ
@@ -163,9 +163,9 @@ Level 3
         Scalar fills (per-instance)              : 3211264
         Temporal reductions (per-instance)       : 0
         Address generations (per-cluster)        : 6422528
-        Energy (per-scalar-access)               : 10.68 pJ
-        Energy (per-instance)                    : 68574937.09 pJ
-        Energy (total)                           : 68574937.09 pJ
+        Energy (per-scalar-access)               : 10.55 pJ
+        Energy (per-instance)                    : 67772121.09 pJ
+        Energy (total)                           : 67772121.09 pJ
         Temporal Reduction Energy (per-instance) : 0.00 pJ
         Temporal Reduction Energy (total)        : 0.00 pJ
         Address Generation Energy (per-cluster)  : 0.00 pJ
@@ -277,8 +277,8 @@ A2D_NoC
         Fanout                                  : 1
         Multicast factor                        : 1
         Ingresses                               : 3211264
-        Energy (per-instance)                   : 856611094.53 pJ
-        Energy (total)                          : 856611094.53 pJ
+        Energy (per-instance)                   : 716856885.25 pJ
+        Energy (total)                          : 716856885.25 pJ
 
 Network 1
 ---------
@@ -503,7 +503,7 @@ scratchpad <==> mac
         Spatial Reduction Energy (per-instance) : 0.00 pJ
         Spatial Reduction Energy (total)        : 0.00 pJ
 
-Total topology energy: 1394658568.61 pJ
+Total topology energy: 1253913045.83 pJ
 Total topology area: 0.00 um^2
 Max topology cycles: 410985
 
@@ -511,7 +511,7 @@ Summary Stats
 -------------
 Utilization: 0.01
 Cycles: 410985
-Energy: 1394.66 uJ
+Energy: 1253.91 uJ
 Area: 0.00 mm^2
 
 MACCs = 86704128
@@ -519,12 +519,12 @@ pJ/MACC
     mac                          = 0.26
     scratchpad                   = 0.00
     dummy_buffer                 = 0.00
-    shared_glb                   = 0.98
+    shared_glb                   = 0.97
     DRAM                         = 4.97
-    A2D_NoC                      = 9.88
+    A2D_NoC                      = 8.27
     D2A_NoC                      = 0.01
     DRAM <==> shared_glb         = 0.00
     dummy_buffer <==> scratchpad = 0.00
     scratchpad <==> mac          = 0.00
-    Total                        = 16.09
+    Total                        = 14.46
 

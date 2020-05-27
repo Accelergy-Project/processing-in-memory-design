@@ -605,15 +605,15 @@
 						<energy_per_access>
 							<PerDataSpace>
 								<item>-nan</item>
-								<item>1.06772500000000008e+01</item>
-								<item>1.06772500000000008e+01</item>
+								<item>1.05522500000000008e+01</item>
+								<item>1.05522500000000008e+01</item>
 							</PerDataSpace>
 						</energy_per_access>
 						<energy>
 							<PerDataSpace>
 								<item>0.00000000000000000e+00</item>
-								<item>1.61010794550000019e+07</item>
-								<item>6.85749370879999995e+07</item>
+								<item>1.59125819550000019e+07</item>
+								<item>6.77721210879999995e+07</item>
 							</PerDataSpace>
 						</energy>
 						<temporal_reduction_energy>
@@ -829,14 +829,14 @@
 							</word_bits>
 							<action_name>transfer</action_name>
 							<multicast_factor_argument>num_destinations</multicast_factor_argument>
-							<per_datatype_ERT>144</per_datatype_ERT>
+							<per_datatype_ERT>80</per_datatype_ERT>
 						</specs_>
 						<stats_ class_id="27" tracking_level="0" version="0">
 							<energy>
 								<PerDataSpace>
 									<item>0.00000000000000000e+00</item>
 									<item>0.00000000000000000e+00</item>
-									<item>8.56611094527999997e+08</item>
+									<item>7.16856885248000026e+08</item>
 								</PerDataSpace>
 							</energy>
 							<ingresses class_id="28" tracking_level="0" version="0">
@@ -890,7 +890,7 @@
 							</word_bits>
 							<action_name>transfer</action_name>
 							<multicast_factor_argument>num_destinations</multicast_factor_argument>
-							<per_datatype_ERT>16</per_datatype_ERT>
+							<per_datatype_ERT>208</per_datatype_ERT>
 						</specs_>
 						<stats_>
 							<energy>
