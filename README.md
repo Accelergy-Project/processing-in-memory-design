@@ -1,3 +1,6 @@
+# Deprecation Warning
+This example is deprecated. See [CiMLoop](https://github.com/mit-emze/cimloop) for the latest processing-in-memory examples.
+ 
 Accelergy-Timeloop Processing-in-memory (PIM) Example
 ------------------------------
 This repo contains a PIM example architecture and the associated constraints designed for the accelergy-timeloop
